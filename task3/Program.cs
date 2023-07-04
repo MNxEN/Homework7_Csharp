@@ -60,11 +60,11 @@ void FindAvg(int[,] numbers)
         {
             sum += numbers[i, j];
         }
-        avg = Math.Round(sum / numbers.GetLength(0),2);
+        avg = Math.Round(sum / numbers.GetLength(0), 2);
         System.Console.WriteLine($"Среднее арифметическое столбца [{j}] = {avg}");
     }
 }
 
-int[,]array = GenerateArray2D();
+int[,] array = GenerateArray2D();
 PrintArray2D(array);
 FindAvg(array);

@@ -61,9 +61,9 @@ void PrintArray2D(double[,] numbers)
 
 int nRow = PromptInt("Введите количство строк");
 int nCol = PromptInt("Введите количство столбцов");
-double min  = PromptDouble("Введите минимальное значение");
-double max  = PromptDouble("Введите максимальное значение");
-double[,] Array = GenerateArray2D(nRow,nCol,min,max);
+double min = PromptDouble("Введите минимальное значение");
+double max = PromptDouble("Введите максимальное значение");
+double[,] Array = GenerateArray2D(nRow, nCol, min, max);
 PrintArray2D(Array);
 
 

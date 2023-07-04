@@ -54,14 +54,14 @@ void FindValue(int[,] numbers)
 {
     int i = PromptInt("Введите номер строки");
     int j = PromptInt("Введите номер столбца");
-    
+
     if (i < numbers.GetLength(0) && j < numbers.GetLength(1))
     {
-       System.Console.WriteLine($"Значение ячейки [{i},{j}] равно '{numbers[i,j]}'");
+        System.Console.WriteLine($"Значение ячейки [{i},{j}] равно '{numbers[i, j]}'");
     }
     else
     {
-    System.Console.WriteLine($"Извините, ячейка [{i}, {j}] не существует");
+        System.Console.WriteLine($"Извините, ячейка [{i}, {j}] не существует");
     }
 }
 
